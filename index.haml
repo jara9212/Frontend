@@ -1,0 +1,28 @@
+!!!5
+%html{class:"no-js", lang:"es"}
+	%head
+		%meta{charset:"utf-8"}
+		%meta{name:"description", content:"Come rico en el mejor restaurante de la ciudad, servicio de primera."}
+		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
+		%title La mejor comida en Restaurant Jara
+		%link{rel:"stylesheet",href:"css/normalize.css"}
+		%link{rel:"stylesheet",href:"css/flexboxgrid.min.css"}
+		%link{rel:"stylesheet",href:"css/style.css"}
+		%link{rel:"stylesheet",href:"https://fonts.googleapis.com/css?family=Dancing+Script"}
+		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
+	%body
+	="<!--[if lt IE 9]>"
+	%p{class:"browserupgrade"}
+		Estás usando un navegador
+		%strong desactualizado Por favor
+	%a{href:"http://brosehappy.com"} actualiza tu navegador para una mejor experiencia
+	="<![endif]-->"
+	.video-container
+		%video{autoplay:true,loop:true,width:"1280",height:"720",poster:"videos/images/whiskey.jpg"}
+			%source{src:"videos/mp4/whiskey.mp4",typ:"video/mp4"}
+			%source{src:"videos/WEBM/whiskey.webm",typ:"video/webm"}
+	.row.full-height.middle-xs.center-xs.relative.up
+		.col-xs-12
+			.box
+				%h1.white-text.dancing-script.title Bar Facilito
+
