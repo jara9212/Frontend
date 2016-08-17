@@ -16,7 +16,7 @@ html {
 
 html, body {
   height: 100%;
-}
+} 
 
 /*
  * Remove text-shadow in selection highlight:
@@ -142,22 +142,38 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
-/*.relative{
-    position: relative
-}
-.up{
-    z-index: -100;
-}
-.full-height{
-    height: 100%;
-}
- .row{
-    margin: 0;
+ .bottom{
+  bottom: 0px;
  }
+.medium{
+  font-size: 1.5em;
+ }
+.navigation li{
+  padding: 5px 10px;
+  transition: all 0.7s;
+}
+.navigation li:hover{
+  background: rgba(0,0,0,0.8);
+}
+.navigation li a{
+  color: white;
+  cursor: pointer;
 
-.hidden {
-    display: none !important;
-}*/
+}
+.navigation li a:hover{
+  text-decoration: none;
+}
+
+.fixed{
+  position: fixed;
+}
+.top{
+  top: 2em;
+}
+.right{
+  right: 5em;
+}
+
 .dancing-script {
   font-family: 'Dancing Script', cursive;
 }
@@ -198,9 +214,6 @@ textarea {
   position: relative;
 }
 
-.fixed {
-  position: fixed;
-}
 
 .absolute {
   position: absolute;
@@ -236,6 +249,9 @@ textarea {
 
 .full-height {
   min-height: 100%;
+}
+.full-width {
+  min-width: 100%;
 }
 
 .hidden {
