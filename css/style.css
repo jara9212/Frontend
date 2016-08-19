@@ -142,6 +142,38 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
+ #menu-title{
+  width: 300px;
+  z-index: 5;
+  left: calc(50% - 150px);
+  top: calc(50% - 2.5em);
+
+ }
+ .subtitle{
+  font-size: 2.5em
+ }
+.food{
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  overflow: hidden;
+}
+.food .screen{
+  position: absolute;
+  top: -100%;
+  background-color: rgba(0,0,0,0.8);
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  transition: top 0.4s;
+}
+.food:hover .screen {
+  top: 0%;
+}
+
+
+
 #descripcion.absolute {
   bottom: 0px;
 }
@@ -153,10 +185,10 @@ textarea {
 }
 .bottom{
   bottom: 0px;
- }
+}
 .medium{
   font-size: 1.5em;
- }
+}
 .navigation li{
   padding: 5px 10px;
   transition: all 0.7s;
@@ -167,12 +199,10 @@ textarea {
 .navigation li a{
   color: white;
   cursor: pointer;
-
 }
 .navigation li a:hover{
   text-decoration: none;
 }
-
 .fixed{
   position: fixed;
 }
@@ -182,11 +212,9 @@ textarea {
 .right{
   right: 5em;
 }
-
 .dancing-script {
   font-family: 'Dancing Script', cursive;
 }
-
 .slim {
   font-weight: 200;
 }
