@@ -142,7 +142,16 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
- .bottom{
+#descripcion.absolute {
+  bottom: 0px;
+}
+#descripcion.fixed {
+  top: 0px;
+}
+#descripcion ul{
+  margin: 0;
+}
+.bottom{
   bottom: 0px;
  }
 .medium{
@@ -255,7 +264,7 @@ textarea {
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .fade {
